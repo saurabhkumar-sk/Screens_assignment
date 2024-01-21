@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:screens_task/screens/screen_1.dart';
+import 'package:screens_task/api_services/api_screen.dart';
+import 'package:screens_task/screens/apiscreens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ScreenOne(),
+      home: const ApiScreens(),
     );
   }
 }
