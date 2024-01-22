@@ -54,11 +54,9 @@ class _ApiScreensState extends State<ApiScreens> {
         padding: const EdgeInsets.all(15.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            // const SizedBox(height: 100),
             Text(
-              "Contact : ${finalResponse['1forge.com']["versions"]["0.0.1"]["info"]["contact"]["email"]}",
+              "Email : ${finalResponse['1forge.com']["versions"]["0.0.1"]["info"]["contact"]["email"]}",
               style: const TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
@@ -66,7 +64,7 @@ class _ApiScreensState extends State<ApiScreens> {
             ),
             const SizedBox(height: 20),
             Text(
-              "Email : ${finalResponse['1forge.com']["versions"]["0.0.1"]["info"]["contact"]["name"]}",
+              "Name : ${finalResponse['1forge.com']["versions"]["0.0.1"]["info"]["contact"]["name"]}",
               style: const TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
